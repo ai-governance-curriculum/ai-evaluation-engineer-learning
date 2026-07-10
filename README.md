@@ -8,9 +8,9 @@
 > 💜 **[Sponsor this curriculum](https://github.com/sponsors/ai-governance-curriculum)** — sponsorships keep the whole open-source AI Career Curriculum free and moving.
 <!-- /aicg:sponsor -->
 
-Assure model quality: eval-harness design, LLM-as-judge calibration, benchmark curation, and regression gating.
+Release-assurance-methodology specialist track (level 35, AI Governance family). Turns evaluation evidence — produced by the peer AI-eval and model-eval specialists (level 30) and by the risk engineer (level 25) — into defensible release-gate decisions, model / system / dataset cards for external audiences, third-party audit packages, regulator-facing submissions, and post-market-surveillance evidence.
 
-> **Status**: scaffolded by `aicg org bootstrap-role`. The curriculum is not authored yet. Run `aicg org research` and `aicg org daily` to drive the autonomous fill-in loop.
+> **Status**: curriculum planned (2026-07-10). Postings sample deferred to the next autonomous cycle — see [`JOB_REQUIREMENTS.md → Status`](JOB_REQUIREMENTS.md#status--bootstrap-session-postings-deferred). Module lessons and worked exercises land on subsequent cycles. See [`CURRICULUM.md`](CURRICULUM.md) for the 12-module + 3-project plan (~297 taught hours).
 
 ## Layout
 
