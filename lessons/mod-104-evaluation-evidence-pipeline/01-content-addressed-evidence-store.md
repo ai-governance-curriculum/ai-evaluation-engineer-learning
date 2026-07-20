@@ -125,7 +125,7 @@ Typical index shape (one row per eval record):
 | `decoding_digest`    | The decoding-config artefact.                                                      |
 | `seed`               | Integer or `null`.                                                                 |
 | `executed_at`        | RFC 3339.                                                                          |
-| `platform`           | e.g., `phoenix|langfuse|weave|vertex|bedrock|foundry|inspect|lm-eval|internal`.    |
+| `platform`           | e.g., `phoenix` \| `langfuse` \| `weave` \| `vertex` \| `bedrock` \| `foundry` \| `inspect` \| `lm-eval` \| `internal`. |
 | `producer_identity`  | The peer-track producer (mod-102 chapter `06`).                                    |
 | `sacm_artifact_id`   | The SACM `Artifact.id` this record discharges, if any (mod-102 chapter `04`).       |
 | `gate_criteria_id`   | The `GATE-…` criterion(s) this record binds to (mod-103 chapter `01`).             |
