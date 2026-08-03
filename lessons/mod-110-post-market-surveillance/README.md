@@ -1,6 +1,6 @@
 # mod-110-post-market-surveillance: Post-Market Surveillance and Continuous Assurance
 
-> Scaffolded by `aicg org execute-plan`. Lecture chapters and exercise content are authored on subsequent autonomous cycles.
+Reads the *continuous* half of release-assurance — the surface where a passed release-gate at time `T` has to stay defensible at `T + N` weeks, months, and years. Chapters walk the statutory backbone (EU AI Act Article 72's post-market monitoring plan; Article 73's serious-incident workflow on 2 / 10 / 15-day wall-clocks), the disposition contract that binds *peer signal* into the assurance case's re-review cycle (the `ai-eval-engineer` at level 30 and the `ai-risk-engineer` at level 25 own the methodology; this role owns the trigger contract, disposition, and supersession), the FDA Predetermined Change Control Plan (PCCP) overlay that unifies AI-Act post-market monitoring with FDA continuous change control for medical devices, and the *external* back-feed from the AI Incident Database, OECD.AI Incidents Monitor, and MIT AI Risk Repository into the trigger register — closed by the non-compliance escalation contract that binds withdrawal and T3+ forced-downgrade to a co-signed disposition with the head of AI governance and a documented dissent process.
 
 **Estimated effort:** 12 hours
 
@@ -14,10 +14,31 @@
 - Design the non-compliance escalation path — deferred-approval, forced-downgrade, and 'do-not-deploy' outcomes
 - Coordinate deployer registrations across EU-member-state deployer registries where required
 
+## Lecture chapters
+
+1. [`01-eu-ai-act-article-72-and-the-post-market-monitoring-plan.md`](01-eu-ai-act-article-72-and-the-post-market-monitoring-plan.md) — Article 72 read as a design brief; the nine-section plan (identification, monitoring objectives, monitored characteristics, data-collection methods, analysis methodology, review cadence and triggers, Article 20 integration, Article 73 integration, change control on the plan); proportionality as a design constraint not a get-out; the three deployer-channel shapes (contractual, platform, human); a worked customer-service RAG shape.
+2. [`02-eu-ai-act-article-73-serious-incident-workflow.md`](02-eu-ai-act-article-73-serious-incident-workflow.md) — Article 3(49)'s four disjuncts (death, serious health harm, critical-infrastructure disruption, fundamental-rights infringement, serious property/environment harm); the three concurrent clocks (2-day / 10-day / 15-day outer); triage, evidence preservation, root-cause conservatism, notification-content checklist; GDPR Article 33's parallel 72-hour data-breach clock; a worked healthcare-triage 21-day timeline.
+3. [`03-peer-eval-and-risk-signal-into-the-re-review-cycle.md`](03-peer-eval-and-risk-signal-into-the-re-review-cycle.md) — the deferral contract (peer owns methodology; this role owns trigger contract, disposition, supersession); the five parts of a trigger (source, metric, threshold, persistence window, authoriser); the five-step "keep the release-gate decision alive" pattern; NIST AI RMF `MANAGE-4.1` as framework backing; the trigger register and fire register as first-class artefacts; five anti-patterns.
+4. [`04-fda-pccp-and-continuous-change-control-alongside-article-72.md`](04-fda-pccp-and-continuous-change-control-alongside-article-72.md) — the FDA Predetermined Change Control Plan's three components (description of modifications, modification protocol, impact assessment); the four divergences between PCCP and Article 72 (envelope vs. open-scope, deployer-channel breadth, fundamental-rights framing, serious-incident wall-clocks); the unification pattern (one runbook tagged, one store tagged, one corrective-action register with dual sign-off, one incident triage on multi-clock notifications); the crosswalk as a controlled document.
+5. [`05-incident-db-back-feed-and-non-compliance-escalation.md`](05-incident-db-back-feed-and-non-compliance-escalation.md) — the three external registries (AI Incident Database, OECD.AI Incidents Monitor, MIT AI Risk Repository); the three-axis matching discipline (capability, deployment-context, evidence-gap) and the four dispositions (no action, read-only awareness, re-review trigger, escalation); the five outcome states (reaffirm, forced retest, forced downgrade, withdrawal, standing-review update); the co-signing contract with release-owner, second-line signer, and head-of-AI-governance for withdrawal and T3+ downgrade; dissent as a first-class field.
+
 ## Structure
 
-- `01-…md` … `0N-…md`: lecture chapters.
-- `exercises/`: per-exercise prompts.
-- `labs/`: long-form hands-on labs.
-- `quizzes/`: knowledge checks.
-- `resources.md`: external references.
+- `01-…md` … `05-…md`: lecture chapters (above).
+- [`exercises/`](exercises/): per-exercise prompts. Solutions live in the paired [`ai-evaluation-engineer-solutions`](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-solutions) repo.
+- [`labs/`](labs/): long-form hands-on labs.
+- [`quizzes/`](quizzes/): knowledge checks.
+- [`resources.md`](resources.md): external references (primary sources first).
+
+## Suggested pace
+
+- **Chapter `01`** — read once, then read Regulation (EU) 2024/1689 Articles 9, 10, 11, 12, 13, 14, 15, 20, 26, and 72 in the consolidated text at [eur-lex.europa.eu/eli/reg/2024/1689/oj](https://eur-lex.europa.eu/eli/reg/2024/1689/oj), plus Annex III and Annex IV. Exercise `01` authors the Article 72 post-market monitoring plan for a specific in-scope high-risk system.
+- **Chapter `02`** — read alongside Articles 3(49), 20, 26(5), 73, and 79 of the same consolidated text and GDPR (Regulation (EU) 2016/679) Article 33 for the parallel 72-hour data-breach regime. Exercise `02` authors the Article 73 serious-incident workflow with triage rules, notification templates, and a rehearsed worked timeline.
+- **Chapter `03`** — read alongside the NIST AI RMF 1.0 Playbook page for `MANAGE-4.1` at [airc.nist.gov/AI_RMF_Knowledge_Base/Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook) and the ISO/IEC 42001 clause 9.3 abstract. Exercise `03` authors the trigger contract, the trigger register schema, and one worked signal walkthrough end-to-end.
+- **Chapter `04`** — read alongside the FDA guidance on [Predetermined Change Control Plans for Artificial Intelligence-Enabled Device Software Functions (2024)](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/predetermined-change-control-plans-artificial-intelligence-enabled-device-software-functions), 21 CFR Part 803 (Medical Device Reporting), and Regulation (EU) 2024/1689 Article 72(3) equivalence clause. Exercise `04` authors the unified monitoring runbook and evidence-tagging discipline for one device that is both FDA-cleared under a PCCP and CE-marked as high-risk AI.
+- **Chapter `05`** — read alongside the AI Incident Database at [incidentdatabase.ai](https://incidentdatabase.ai/), the OECD.AI Incidents Monitor at [oecd.ai/en/incidents](https://oecd.ai/en/incidents/), and the MIT AI Risk Repository at [airisk.mit.edu](https://airisk.mit.edu/). Exercise `05` authors the external-registry ingest procedure, a match assessment for a real public incident against the learner's deployment, and the walked escalation to a co-signed disposition with documented dissent.
+
+## Dependencies
+
+- Requires mod-101 (release-assurance position — the second-line-of-defence pattern the escalation contract extends), mod-102 (assurance case — the claims re-review reopens, the harm-inventory the trigger contract references, the defeaters vocabulary), mod-103 (release-gate architecture — the runbook's incident-cutover triggers, the second-line effective-challenge signer, the dashboard where the trigger register is rendered), mod-104 (evidence pipeline — the assurance bundle whose superseding is the record of a re-review; the content-addressed store where every scan and every signed disposition lands), mod-107 (sector-regulated assurance — the wider sector-overlay pattern chapter `04` specialises for PCCP), mod-108 (deployment-tier gating — forced-downgrade is a re-review disposition landing on the tier architecture), and mod-109 (third-party evaluator interface — notified-body findings and evaluator reports are one signal class the plan ingests).
+- Consumed by mod-111 (GPAI systemic-risk assurance — the AI Office notification channel extends the escalation contract for Article 55 systemic-risk providers) and mod-112 (owning an assurance program — running the plan, the trigger register, and the escalation contract across a portfolio is the operational core of the programme).

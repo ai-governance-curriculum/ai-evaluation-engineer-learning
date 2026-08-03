@@ -1,22 +1,45 @@
 # mod-109-third-party-evaluator-and-auditor-interface: Third-Party Evaluator and Auditor Interface
 
-> Scaffolded by `aicg org execute-plan`. Lecture chapters and exercise content are authored on subsequent autonomous cycles.
+Reads the third-party surface the release-assurance programme is accountable for and turns it into a set of reusable engagement disciplines. Chapters walk four distinct evaluator shapes — AISI-shape technical evaluators (UK AI Security Institute, US AI Safety Institute and the AISI Consortium, Singapore AI Verify Foundation, METR, Apollo Research), EU AI Act notified bodies, NYC Local Law 144 AEDT independent bias auditors, and Big-Four AI-assurance firms in the attest-vs-advisory split — plus one worked-example public-sector precedent (NIST FRVT / FRTE) that best predicts how AISI-shape engagements will look at maturity. A closing chapter pulls the four interface-specific disciplines into a single playbook — delivery timing, delivery envelope, evidence hardening — that the programme can apply on intake without re-authoring for each engagement type.
 
 **Estimated effort:** 12 hours
 
 ## Learning objectives
 
-- Design the handoff to an AISI-shape third-party evaluator (UK AISI, US AISI, NIST AI Safety Institute Consortium, Singapore AI Verify Foundation, METR, Apollo Research) with reproducibility bundles, PII scrubbing, and non-disclosure of attack payloads
-- Design the handoff to a notified body for EU AI Act conformity assessment, aligned with ISO/IEC 42006 requirements against certification bodies
-- Design the handoff to a NYC Local Law 144 (AEDT) independent bias audit — the shape it takes when the auditor is not a national safety institute
-- Design the handoff to Big-Four-shape AI-assurance engagements (Deloitte AI Assurance, PwC Responsible AI, EY Trusted AI, KPMG Trusted AI, Accenture Responsible AI) and the difference between advisory scope and attest scope
-- Read NIST FRVT / FRTE as the public-sector independent-evaluator worked example that best predicts how AISI-shape evaluation will look at maturity, and adapt shape lessons to the enterprise handoff
-- Author the delivery timing / delivery-envelope / evidence-hardening playbook a third-party evaluator will accept
+- Design the handoff to an AISI-shape third-party evaluator (UK AISI, US AISI, NIST AI Safety Institute Consortium, Singapore AI Verify Foundation, METR, Apollo Research) with reproducibility bundles, PII scrubbing, and non-disclosure of attack payloads.
+- Design the handoff to a notified body for EU AI Act conformity assessment, aligned with ISO/IEC 42006 requirements against certification bodies.
+- Design the handoff to a NYC Local Law 144 (AEDT) independent bias audit — the shape it takes when the auditor is not a national safety institute.
+- Design the handoff to Big-Four-shape AI-assurance engagements (Deloitte AI Assurance, PwC Responsible AI, EY Trusted AI, KPMG Trusted AI, Accenture Responsible AI) and the difference between advisory scope and attest scope.
+- Read NIST FRVT / FRTE as the public-sector independent-evaluator worked example that best predicts how AISI-shape evaluation will look at maturity, and adapt shape lessons to the enterprise handoff.
+- Author the delivery timing / delivery-envelope / evidence-hardening playbook a third-party evaluator will accept.
+
+## Lecture chapters
+
+1. [`01-aisi-shape-third-party-evaluators-and-attack-payload-non-disclosure.md`](01-aisi-shape-third-party-evaluators-and-attack-payload-non-disclosure.md) — the AISI category (UK AI Security Institute, US AI Safety Institute and the Consortium, Singapore AI Verify Foundation, METR, Apollo Research, MLCommons AI Safety Working Group); what each asks for; the six-component handoff envelope; the three payload-leakage failure modes (training-corpus contamination, peer-provider leakage, public-web scrape) that make attack-payload non-disclosure a methodology-preserving control rather than an evaluator courtesy; the `Inspect` framework as a shared substrate.
+2. [`02-notified-body-conformity-assessment-under-eu-ai-act-article-43.md`](02-notified-body-conformity-assessment-under-eu-ai-act-article-43.md) — what a notified body is under EU AI Act Article 30 (accredited against ISO/IEC 17065 and, for AIMS-scope, ISO/IEC 42006:2025; listed in NANDO); when Annex VII is mandatory versus optional; the three dossier components (Annex IV technical documentation, Article 17 QMS documentation, internal-testing evidence); the audit-visit workflow (stage 1, stage 2, technical-documentation assessment, certificate, surveillance, substantial-modification); interaction with ISO/IEC 42001 certification.
+3. [`03-nyc-local-law-144-aedt-independent-bias-audit.md`](03-nyc-local-law-144-aedt-independent-bias-audit.md) — the DCWP definition of an AEDT; the independent-auditor independence tests; the prescribed statistical output (selection rates and impact ratios by category); the four dataset-preparation dimensions (representative sample, category tagging, statistical sufficiency, lineage and integrity); the candidate-notice obligation; the four-axis contrast with AISI-shape evaluation; the AEDT shape as a precedent for other compliance-driven, use-case-scoped, publicly-summarised audits.
+4. [`04-big-four-assurance-engagements-attest-vs-advisory.md`](04-big-four-assurance-engagements-attest-vs-advisory.md) — the assurance-standards frame (ISAE 3000 (Revised) internationally, SSAE 21 in the US); the attest-vs-advisory split at the level of standards, deliverables, and Chinese-wall independence; the branded firm offerings (Deloitte AI Assurance, PwC Responsible AI, EY Trusted AI, KPMG Trusted AI, Accenture Responsible AI); the three criteria patterns for attest opinions (NIST AI RMF, ISO/IEC 42001, internal responsible-AI standard); why the evidence pipeline (`mod-104`) determines attest cost and feasibility.
+5. [`05-frvt-frte-as-the-public-sector-independent-evaluator-worked-example.md`](05-frvt-frte-as-the-public-sector-independent-evaluator-worked-example.md) — the two-decade NIST FRVT / FRTE programme; the sealed-envelope submission workflow; the demographic-differentials report shape; the five shape lessons for AISI-shape engagements (sealed evaluation, published breakdowns, versioned identifiers, longitudinal comparison, portfolio adapter); the two disanalogies (deployment surface, evaluation ownership) that refine but do not invalidate the lessons.
+6. [`06-delivery-timing-envelope-and-evidence-hardening-playbook.md`](06-delivery-timing-envelope-and-evidence-hardening-playbook.md) — the synthesis. Three shared disciplines (delivery timing, delivery envelope, evidence hardening); back-planning from the evaluator's report-delivery date; the seven envelope components with named owners and a twenty-one-item intake checklist; the four evidence-hardening practices (digest-pin, sample-by-query, redact-per-audience, sign-the-envelope); the engagement charter as operational artefact; three failure modes (timing collapse, envelope drift, evidence softness) the playbook is designed against.
 
 ## Structure
 
-- `01-…md` … `0N-…md`: lecture chapters.
-- `exercises/`: per-exercise prompts.
-- `labs/`: long-form hands-on labs.
-- `quizzes/`: knowledge checks.
-- `resources.md`: external references.
+- `01-…md` … `06-…md`: lecture chapters (above).
+- [`exercises/`](exercises/): per-exercise prompts. Solutions live in the paired [`ai-evaluation-engineer-solutions`](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-solutions) repo.
+- [`labs/`](labs/): long-form hands-on labs.
+- [`quizzes/`](quizzes/): knowledge checks.
+- [`resources.md`](resources.md): external references (primary sources first).
+
+## Suggested pace
+
+- **Chapter `01`** — read once, then skim the UK AI Security Institute's `Inspect` framework landing page and the US AI Safety Institute's home page. Exercise `01` designs an AISI handoff envelope for a worked frontier-deployment scenario and stress-tests the non-disclosure discipline against the three leakage failure modes.
+- **Chapter `02`** — read alongside the consolidated text of Regulation (EU) 2024/1689 (Articles 11, 17, 30, 31, 43, 47, 72; Annex IV; Annex VII) and the ISO/IEC 42006:2025 abstract. Exercise `02` assembles a notified-body Annex VII dossier for a worked biometric-categorisation product and designs the surveillance-audit calendar.
+- **Chapter `03`** — read alongside the DCWP final rules and the DCWP guidance FAQ. Exercise `03` prepares an AEDT input-dataset envelope for a worked internal hiring-recommendation product and defends the four dataset-preparation dimensions against the independence line.
+- **Chapter `04`** — read alongside the IAASB's ISAE 3000 (Revised) landing page (assurance-standards frame) and one of the Big-Four firms' AI-assurance product pages. Exercise `04` scopes an ISAE 3000 (Revised) reasonable-assurance engagement on a worked AIMS and defends the attest-vs-advisory split against an intake proposal that collapsed them.
+- **Chapter `05`** — read alongside the current FRVT/FRTE ongoing-results publication on the NIST FRVT pages. Exercise `05` reads a current FRVT/FRTE round and designs the next AISI-shape engagement with the five shape lessons applied.
+- **Chapter `06`** — read after `01`–`05`. It is the synthesis and exercise `06` is the closing composition — but note the module ships five exercises; the playbook is exercised inside every exercise's engagement-charter deliverable rather than a standalone artefact.
+
+## Dependencies
+
+- Requires mod-101 (release-assurance position — the external-parties row of the deferral contract), mod-102 (assurance case — external-evaluator leaves with validity windows), mod-103 (release-gate architecture — the four cross-references from chapter `06`), mod-104 (evaluation evidence pipeline — the assurance bundle as primary source for envelope assembly, the four hardening practices as the pipeline's external-facing operating mode), mod-105 (cards for external audiences — the report-before-disclosure cross-reference), and mod-108 (deployment-tier gating — the tier-decision artefact as one of the seven envelope components).
+- Consumed by mod-110 (post-market surveillance — certificate-validity re-engagement reminders as surveillance-plan calendar entries), mod-111 (GPAI systemic-risk assurance — the AI Office as a distinct supervision interface where the FRVT/FRTE shape lessons apply directly), and mod-112 (owning an assurance program — the engagement charter as a standing artefact the programme carries across cycles).
