@@ -157,8 +157,6 @@ Every escalation record is DSSE-signed by every signer, Rekor-logged, and lodged
 
 ## Where this shows up in the rest of the track
 
-## Where this shows up in the rest of the track
-
 - `mod-102` chapter `05` — external-registry incidents are one class of defeater the case has to be able to absorb.
 - `mod-103` chapter `05` — the runbook's rollback-authorisation and second-line effective-challenge convention shape the escalation contract.
 - `mod-104` chapter `01` / `06` — scans, match assessments, dispositions, and escalation records all land as signed artefacts in the store; supersession discipline is applied to reversed release-gate decisions.

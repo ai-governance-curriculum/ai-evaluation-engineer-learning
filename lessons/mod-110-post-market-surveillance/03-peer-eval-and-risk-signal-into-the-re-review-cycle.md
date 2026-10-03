@@ -135,8 +135,6 @@ Wall-clocks apply to the assurance programme's own dispositions. They do *not* s
 
 ## Where this shows up in the rest of the track
 
-## Where this shows up in the rest of the track
-
 - `mod-102` chapter `05` — defeaters framing gives the vocabulary for what a re-review is challenging.
 - `mod-102` chapter `06` — the evidence-contract row per peer track names the artefact classes the trigger contract consumes.
 - `mod-103` chapter `05` — rollback triggers are one class of re-review disposition; the runbook and the re-review cycle share vocabulary.

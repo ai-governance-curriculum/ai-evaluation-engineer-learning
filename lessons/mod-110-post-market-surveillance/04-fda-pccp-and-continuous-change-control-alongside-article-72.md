@@ -136,10 +136,6 @@ Where the notified body under CE-marking and the FDA both request information on
 
 ## Where this shows up in the rest of the track
 
-## Where this shows up in the rest of the track
-
-## Where this shows up in the rest of the track
-
 - `mod-101` chapter `04` — Article 72 named as the AI-Act anchor; sector-rule overlay named as adjacent obligation.
 - `mod-102` chapter `06` — the risk-engineer contract row carries the PCCP impact-assessment ownership.
 - `mod-104` chapter `01` — the store's `retention_class` and `regulatory_scope` fields carry the tagging.

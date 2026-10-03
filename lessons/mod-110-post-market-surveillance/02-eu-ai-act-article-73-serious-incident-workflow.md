@@ -118,8 +118,6 @@ The initial notification, at minimum, carries:
 
 Updates carry the same incident identifier and either confirm or revise the causal hypothesis, name new mitigations, and record the closure state.
 
-## Where this shows up in the rest of the track
-
 ## Worked timeline — a healthcare triage AI system
 
 A hospital network deploys a triage-support AI that ranks emergency-department presentations by urgency. The system is Annex III high-risk. The provider is a MedTech company; the deployer is the hospital network.
