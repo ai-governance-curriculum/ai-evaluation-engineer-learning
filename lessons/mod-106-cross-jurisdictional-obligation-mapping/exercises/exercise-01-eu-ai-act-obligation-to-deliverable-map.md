@@ -11,7 +11,7 @@ Produce the **EU AI Act anchor slice** of an assurance-map for a single system y
 - Chapter [`01-why-cross-jurisdictional-mapping.md`](../01-why-cross-jurisdictional-mapping.md) — the four-layer map, the row shape, who consumes the map.
 - Chapter [`02-eu-ai-act-obligations-to-deliverables.md`](../02-eu-ai-act-obligations-to-deliverables.md) — the article-by-article deliverable table this exercise operationalises.
 - Skim access to [Regulation (EU) 2024/1689 (EU AI Act)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj), particularly Chapter III Section 2 (Articles 8–15), Article 17 (QMS), Article 26 (deployer obligations), Article 43 (conformity assessment), Article 47 (declaration of conformity), Article 49 (registration), Article 61 (serious-incident reporting), Article 72 (post-market monitoring), Annex III (high-risk domains), Annex IV (technical documentation content), Annex V (declaration content).
-- Familiarity with the peer-role registry for the AI Evaluation Engineer track (`ai-risk-engineer`, `model-evaluation-engineer`, `ai-governance-analyst`, `ai-infra-security`, platform-eng, product, legal, DPO, HR — plus your own role, `ai-evaluation-engineer`).
+- Familiarity with the peer-role registry for the AI Assurance Engineer track (`ai-risk-engineer`, `model-evaluation-engineer`, `ai-governance-analyst`, `ai-infra-security`, platform-eng, product, legal, DPO, HR — plus your own role, `ai-evaluation-engineer`).
 
 ## Problem statement
 

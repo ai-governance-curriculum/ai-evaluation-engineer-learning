@@ -1,6 +1,6 @@
 # mod-101-release-assurance-position: Release-Assurance Position: The Assurance Methodology Owner on the Ladder
 
-Opens the AI Evaluation Engineer track by pinning the role to one job — *own the release-assurance methodology* — and by walking the four bodies of literature (NIST AI RMF, ISO/IEC 42001, EU AI Act, values baseline) that every subsequent module maps into.
+Opens the AI Assurance Engineer track by pinning the role to one job — *own the release-assurance methodology* — and by walking the four bodies of literature (NIST AI RMF, ISO/IEC 42001, EU AI Act, values baseline) that every subsequent module maps into.
 
 **Estimated effort:** 12 hours
 

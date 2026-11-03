@@ -1,4 +1,4 @@
-# AI Evaluation Engineer Curriculum (Governance family, level 35)
+# AI Assurance Engineer Curriculum (Governance family, level 35)
 
 <!-- aicg:orientation:start -->
 > **Start here:** [Module 00: Your Relationship to the Model](lessons/00-your-relationship-to-the-model/README.md). Where this role sits relative to the model, what it owns, and who it works with across the sibling curricula.

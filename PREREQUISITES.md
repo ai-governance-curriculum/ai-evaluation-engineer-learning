@@ -1,4 +1,4 @@
-# Prerequisites for the AI Evaluation Engineer track (Governance family, level 35)
+# Prerequisites for the AI Assurance Engineer track (Governance family, level 35)
 
 This is a level-35 specialist track. It assumes the learner already has:
 

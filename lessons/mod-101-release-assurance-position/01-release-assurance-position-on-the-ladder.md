@@ -11,7 +11,7 @@ Before we can walk the standards (NIST AI RMF, ISO/IEC 42001, EU AI Act, values 
 
 ## The one-sentence charter
 
-> The AI Evaluation Engineer owns the *release-assurance methodology*: the standing procedure by which evaluation evidence is captured, structured into an assurance case, decided on at a release gate, and packaged for regulators, auditors, deployers, and boards — including post-market surveillance.
+> The AI Assurance Engineer owns the *release-assurance methodology*: the standing procedure by which evaluation evidence is captured, structured into an assurance case, decided on at a release gate, and packaged for regulators, auditors, deployers, and boards — including post-market surveillance.
 
 Everything in the twelve-module plan is a specialisation of that sentence. Everything not in that sentence is a deferral.
 
