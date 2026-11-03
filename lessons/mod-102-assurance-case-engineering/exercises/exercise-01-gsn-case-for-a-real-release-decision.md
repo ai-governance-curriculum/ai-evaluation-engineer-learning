@@ -17,7 +17,7 @@ This is the applied output of chapters `01` and `02`.
 
 ## Problem statement
 
-You are the AI Evaluation Engineer at an organisation that has to make a release-gate decision *this cycle*. Pick **one** of the three scenarios below (or write your own equivalent, if you have specific context you want to use). Every scenario names one AI system, one deployment tier promotion, one jurisdiction set, and one applicable framework set — you do not get to change these mid-exercise.
+You are the AI Assurance Engineer at an organisation that has to make a release-gate decision *this cycle*. Pick **one** of the three scenarios below (or write your own equivalent, if you have specific context you want to use). Every scenario names one AI system, one deployment tier promotion, one jurisdiction set, and one applicable framework set — you do not get to change these mid-exercise.
 
 ### Scenario A — Foundation-model-backed customer-service triage in a US+EU bank
 

@@ -15,7 +15,7 @@ The centre of gravity is the Article 30(3) clause set. Article 30 prescribes the
 - [Regulation (EU) 2022/2554 — DORA](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) — read Articles 28, 29, 30, and 31 directly. They are the load-bearing articles for this exercise.
 - [Delegated Regulation (EU) 2024/1502](https://eur-lex.europa.eu/eli/reg_del/2024/1502/oj) — the criteria for designation of critical ICT third-party service providers, if the arrangement is with a candidate for designation.
 - [The ESAs' DORA landing page](https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora) — for the current state of the ITS on the register of information and the RTS on contractual policies.
-- Familiarity with the peer-role registry for the AI Evaluation Engineer track (`ai-risk-engineer`, `model-evaluation-engineer`, `ai-governance-analyst`, `ai-infra-security`, `platform-eng`, `product`, `legal`, procurement, CRO / risk committee).
+- Familiarity with the peer-role registry for the AI Assurance Engineer track (`ai-risk-engineer`, `model-evaluation-engineer`, `ai-governance-analyst`, `ai-infra-security`, `platform-eng`, `product`, `legal`, procurement, CRO / risk committee).
 
 ## Problem statement
 

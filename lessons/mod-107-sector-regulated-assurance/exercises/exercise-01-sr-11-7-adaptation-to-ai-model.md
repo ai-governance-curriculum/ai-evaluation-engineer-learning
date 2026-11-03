@@ -13,7 +13,7 @@ The exercise is authoring, not solving. Placeholder evidence pointers and `<!-- 
 - Chapter [`01-sr-11-7-and-model-risk-management-adapted-to-ai.md`](../01-sr-11-7-and-model-risk-management-adapted-to-ai.md) — the six-element paraphrase, the three lines of defence, the four stress points, the Model Performance Report standing artefact.
 - Chapter [`02-sr-23-4-third-party-relationships-and-foundation-models.md`](../02-sr-23-4-third-party-relationships-and-foundation-models.md) — the SR 23-4 lifecycle and the seven-item contract-clause fight list; prerequisite background because most AI systems in a U.S. bank now carry a foundation-model dependency the SR-11-7 documents cross-reference.
 - Skim access to [Federal Reserve SR 11-7](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm) and [OCC Bulletin 2011-12](https://www.occ.gov/news-issuances/bulletins/2011/bulletin-2011-12.html). The guidance is short by regulatory standards (~21 pages); read the model-definition, effective-challenge, development-and-implementation, and validation-and-monitoring paragraphs directly.
-- Familiarity with the peer-role registry for the AI Evaluation Engineer track (`ai-risk-engineer`, `model-evaluation-engineer`, `ai-governance-analyst`, `ai-infra-security`, platform-eng, product, legal, MRM validation lead, Internal Audit — plus your own role, `ai-evaluation-engineer`).
+- Familiarity with the peer-role registry for the AI Assurance Engineer track (`ai-risk-engineer`, `model-evaluation-engineer`, `ai-governance-analyst`, `ai-infra-security`, platform-eng, product, legal, MRM validation lead, Internal Audit — plus your own role, `ai-evaluation-engineer`).
 
 ## Problem statement
 

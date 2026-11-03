@@ -16,7 +16,7 @@ This is the applied output of chapter `03`.
 
 ## Problem statement
 
-You are the AI Evaluation Engineer preparing the case from exercise `01` for **two audiences** with different formats:
+You are the AI Assurance Engineer preparing the case from exercise `01` for **two audiences** with different formats:
 
 - **Audience 1 — Internal release-gate meeting.** The system's engineering leads, the risk-engineering lead, the AI-eval and model-eval peer leads, and the accountable executive. Format: whiteboard-and-slide-deck review; participants will walk the case top-down and ask questions at nodes.
 - **Audience 2 — Regulator submission or external auditor package.** The EU AI Act notified body (scenario A / C), the FDA (scenario B), or the Big-Four assurance firm engaged by your organisation (any scenario). Format: structured prose in a technical documentation package; readers will walk the case as a document.

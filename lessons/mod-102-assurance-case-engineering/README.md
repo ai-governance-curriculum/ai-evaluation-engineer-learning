@@ -1,6 +1,6 @@
 # mod-102-assurance-case-engineering: Assurance-Case Engineering for AI Evaluation Evidence
 
-Installs the assurance-case discipline for the AI Evaluation Engineer track: **GSN**, **CAE**, and **SACM** as the notations, defeater / mitigation and diversity-of-evidence as the audit shape, and evidence contracts as the interface into the peer tracks that produce each leaf's evidence.
+Installs the assurance-case discipline for the AI Assurance Engineer track: **GSN**, **CAE**, and **SACM** as the notations, defeater / mitigation and diversity-of-evidence as the audit shape, and evidence contracts as the interface into the peer tracks that produce each leaf's evidence.
 
 **Estimated effort:** 14 hours
 

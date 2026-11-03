@@ -1,6 +1,6 @@
 # mod-103-release-gate-architecture: Release-Gate Architecture for AI Products and Platforms
 
-Builds the release-gate the AI Evaluation Engineer owns: **hard vs. soft criteria** with pre-registered pass thresholds and rollback / rollforward hooks; a rubric structured around **ISO/IEC 25059** quality dimensions and cross-mapped to **NIST AI RMF MEASURE**; outputs mapped into **ISO/IEC 42001** clauses 8 (operation) and 9 (performance evaluation); consumer contracts with the four peer tracks that produce the evidence; a runbook shaped by **SR 11-7** second-line effective challenge; and the dashboard the on-call assurance engineer reads at approval.
+Builds the release-gate the AI Assurance Engineer owns: **hard vs. soft criteria** with pre-registered pass thresholds and rollback / rollforward hooks; a rubric structured around **ISO/IEC 25059** quality dimensions and cross-mapped to **NIST AI RMF MEASURE**; outputs mapped into **ISO/IEC 42001** clauses 8 (operation) and 9 (performance evaluation); consumer contracts with the four peer tracks that produce the evidence; a runbook shaped by **SR 11-7** second-line effective challenge; and the dashboard the on-call assurance engineer reads at approval.
 
 **Estimated effort:** 15 hours
 

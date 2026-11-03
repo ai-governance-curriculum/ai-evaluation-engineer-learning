@@ -16,7 +16,7 @@ This exercise is the practical output of chapters `01` and `06`.
 
 ## Problem statement
 
-You are the newly hired AI Evaluation Engineer (level 35, AI Governance family) at a fictional but realistic organisation. Pick **one** of the following organisation types for the exercise (or write your own equivalent):
+You are the newly hired AI Assurance Engineer (level 35, AI Governance family) at a fictional but realistic organisation. Pick **one** of the following organisation types for the exercise (or write your own equivalent):
 
 - A **provider** of a healthcare-diagnostic AI system, subject to FDA GMLP and EU AI Act Annex III high-risk classification.
 - A **deployer** of a foundation-model-based customer-support agent inside a US-and-EU multinational bank; also *provider* of the fine-tuned derivative.
